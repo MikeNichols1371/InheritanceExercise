@@ -6,6 +6,28 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            var bird1 = new Bird()
+            {
+                Feather = "Blue",
+                Beak = "Black",
+                Wings = "Green",
+                Talons = 6,
+                Eyes = true,
+                Legs = true,
+                Ears = true,
+                Feet = true
+            };
+
+            var rep1 = new Reptile();
+            rep1.Scales = "Red";
+            rep1.Tail = "Black";
+            rep1.Claws = 0;
+            rep1.Teeth = 52;
+            rep1.Eyes = true;
+            rep1.Legs = true;
+            rep1.Ears = true;
+            rep1.Feet = false;
+
             // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal
